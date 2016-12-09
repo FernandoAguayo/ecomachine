@@ -1,0 +1,183 @@
+/* All views */
+
+#header {
+    background: url("banner2.jpg") no-repeat;
+    background-size: 100%;
+    height: 110px;
+    padding: 0 !important;
+    margin: 0;
+    border-style: hidden;
+}
+
+body {
+    border-style: hidden;
+    height: 100%;
+    background: url("back11.png");
+}
+
+footer {
+    background: url("footer.jpg") no-repeat;
+    background-size: 100%;
+    height: 77px;
+    bottom: 0;
+    border-style: hidden;
+}
+
+#content-ui-view {
+    height: 420px;
+    border-style: hidden;
+}
+
+
+/* Welcome&Main boxes */
+
+.box1 {
+    border-style: hidden;
+    height: 210px;
+    width: 250px;
+    background-color: azure;
+    position: absolute;
+    top: 200px;
+    left: 65px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
+
+.box2 {
+    border-style: hidden;
+    background: url("diagrama4.jpg") no-repeat;
+    background-size: 100%;
+    height: 210px;
+    width: 350px;
+    background-color: azure;
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
+
+
+/*  Main template*/
+
+.box2_main {
+    border-style: hidden;
+    background-size: 100%;
+    height: 210px;
+    width: 350px;
+    background-color: azure;
+    position: absolute;
+    top: 200px;
+    left: 410px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
+
+
+/*  Welcome template*/
+
+.box1 #welcome1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 45px;
+    padding-left: 3px;
+    font-style: normal;
+    color: green;
+}
+
+.box1 #welcome2 {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 3px;
+    font-style: normal;
+    color: green;
+}
+
+
+/*  Main template*/
+
+#main1 {
+    text-align: center;
+    font-size: 23px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#main2 {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#main3 {
+    text-align: center;
+    font-size: 23px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#main4 {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#main_botes {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#main_cifra {
+    text-align: center;
+    font-size: 75px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+
+/*  Finished template*/
+
+.box_finished {
+    border-style: hidden;
+    height: 200px;
+    width: 600px;
+    background-color: azure;
+    position: absolute;
+    top: 210px;
+    left: 120px;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
+
+#box_finished1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 45px;
+    padding-left: 0px;
+    font-style: normal;
+    color: green;
+}
+
+#box_finished2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 0px;
+    font-style: normal;
+    color: black;
+}

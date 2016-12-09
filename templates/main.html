@@ -1,0 +1,16 @@
+<div id="content-ui-view" ui-view>
+    <div ng-controller="viewHelperController">
+        <div class="box1">
+            <div id="main1">Saldo Inicial</div>
+            <div id="main2" ng-if="user.saldoanterior > 100">$ {{user.saldoanterior / 100}} </div>
+            <div id="main2" ng-if="user.saldoanterior < 100">{{user.saldoanterior}} ¢ </div>
+            <div id="main3">Saldo Final</div>
+            <div id="main4" ng-if="user.saldo > 100">$ {{user.saldo / 100}} </div>
+            <div id="main4" ng-if="user.saldo < 100">{{user.saldo}} ¢ </div>
+        </div>
+        <div class="box2_main">
+            <div id="main_botes">Botes Ingresados</div>
+            <div id="main_cifra">{{user.botes}}</div>
+        </div>
+    </div>
+</div>
